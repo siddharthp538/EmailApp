@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Implementing Nodemailer</title>
+    <link rel="stylesheet" href="public/css/style.css">
+  </head>
+  <body bg-color: blue>
+
+      <h1 align="center">Email using NodeJS</h1>
+      {{msg}}
+
+    <hr>
+    <form class="form-style-9" method="POST" action="/send">
+      <ul>
+        <li>
+            <input type="text" name="name" class="field-style field-split align-left" placeholder="Name" />
+            <input type="email" name="email" class="field-style field-split align-right" placeholder="Email" />
+        </li>
+        <li>
+          <input type="text" name="phone" class="field-style field-split align-left" placeholder="Phone" />
+          <input type="text" name="company" class="field-style field-split align-right" placeholder="Company" />
+        </li>
+        <li>
+          <textarea name="message" class="field-style" placeholder="Message"></textarea>
+        </li>
+        <li>
+          <input type="submit" value="Send Message" />
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>
